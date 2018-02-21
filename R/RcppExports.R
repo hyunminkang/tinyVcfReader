@@ -7,7 +7,7 @@
 #' a genotype matrix of size [# variants] x [# samples].
 #' 
 #' @param filename A file name of a compressed VCF file ending with .gz or .bgz
-#' @return A integer genotype matrix of a size [# variants] x [# samples]. 
+#' @return An integer genotype matrix of a size [# variants] x [# samples]. 
 #'         Only GT field will be recognized. The row names will be variant IDs, 
 #'         in the format of [CHROM]:[POS]:[REF]:[ALT], and the column names 
 #'         will be the sample IDs
